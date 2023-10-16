@@ -164,6 +164,6 @@ while termino == False:
 
     limpa()
     print('Vamos lá!')
-    print(f'A categoria escolhida foi: {escolhaShow}')
+    print(f'A categoria escolhida foi: {escolhaShow.lower()}')
     print("Agora tente adivinhar o seguinte:\n")
     execForca()
